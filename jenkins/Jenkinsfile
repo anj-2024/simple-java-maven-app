@@ -26,5 +26,10 @@ pipeline {
                 echo 'Job Complete!'
             }
         }
+        stage('Updated') {
+            steps {
+                echo 'Job completed!'
+            }
+        }
     }
 }
